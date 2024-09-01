@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Posts" %>
+
+<h1>Posts Luna</h1>
+
+<div style="display:solid 1px" id="posts">
+  <% @posts.each do |post| %>
+    <%= render post %>
+    <p>
+      <%= link_to "Show", post %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "Novo Post", new_post_path %>
+<%= link_to "Home", root_path %>

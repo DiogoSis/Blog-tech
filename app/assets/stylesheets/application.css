@@ -1,0 +1,90 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+.post-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-container p {
+    margin: 10px 0;
+}
+
+.post-container strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilo para o título do blog */
+.blog-title {
+  font-size: 2.5em;
+  text-align: center;
+  color: #4CAF50;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para a descrição da página */
+.page-description {
+  text-align: center;
+  color: #777;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+/* Estilo para a lista de posts */
+.posts-list {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 800px;
+}
+
+/* Estilo para cada item de post */
+.post-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+/* Estilo para o título de cada post */
+.post-title {
+  font-size: 1.8em;
+  color: #333;
+  margin: 0;
+}
+
+/* Estilo para o link de todos os posts */
+.link-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.posts-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.posts-link:hover {
+  background-color: #45A049;
+}
